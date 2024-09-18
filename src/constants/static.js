@@ -1,8 +1,8 @@
 export const cardData = [
     {
-        topic: 'React Basics',
-        description: 'Learn the basics of React, a popular JavaScript library for building user interfaces.',
-        link: 'https://reactjs.org/',
+        topic: 'Counter Timer',
+        description: 'CountdownTimer',
+        link: '/CountdownTimer',
     },
     {
         topic: 'Tailwind CSS',

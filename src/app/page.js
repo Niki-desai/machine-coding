@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Card from "../components/Card";
+import { cardData } from "../constants/static"
 
 export default function Home() {
   return (
@@ -104,14 +106,14 @@ export default function Home() {
       <main className="flex-grow container mx-auto p-6">
         <h1 className="text-3xl font-bold text-center mb-8">Topics to Explore</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* {cardData.map((card, index) => (
+           {cardData.map((card, index) => (
             <Card
               key={index}
               topic={card.topic}
               description={card.description}
               link={card.link}
             />
-          ))} */}
+          ))} 
         </div>
       </main>
       <Footer />
