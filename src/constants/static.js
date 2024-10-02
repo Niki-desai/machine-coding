@@ -5,9 +5,9 @@ export const cardData = [
         link: '/CountdownTimer',
     },
     {
-        topic: 'Tailwind CSS',
-        description: 'Master Tailwind CSS, a utility-first CSS framework that helps you build custom designs.',
-        link: 'https://tailwindcss.com/',
+        topic: 'FAQ Component',
+        description: '',
+        link: '/FAQComponent',
     },
     {
         topic: 'Next.js Guide',
